@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.denom-item {
+  list-style-type: none;
+  width: 48%;
+  margin-bottom: 20px;
+}
+.button {
+  border-radius: 7px;
+  background-color: #382f5a;
+  color: #d4d2db;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #c4c4c4;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 24px;
+  }
+}
